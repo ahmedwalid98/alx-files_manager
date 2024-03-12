@@ -12,7 +12,7 @@ import { Request, Response } from 'express';
 import { contentType } from 'mime-types';
 import mongoDBCore from 'mongodb/lib/core';
 import dbClient from '../utils/db';
-import { getUserFromXToken } from '../utils/auth';
+import { getUserFromXToken } from '../utils/utils';
 
 const VALID_FILE_TYPES = {
   folder: 'folder',
